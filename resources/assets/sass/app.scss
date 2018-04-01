@@ -1,6 +1,6 @@
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+//@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
 // Variables
 @import "variables";
@@ -8,7 +8,11 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+@font-face{
+  font-family:EoFont;
+  src:url('/fonts/Eofont-R.otf') format("opentype")
+}
+@font-face{
+  font-family:Koku-Mincho;
+  src:url('https://cdn.leafscape.be/IPAexfont/ipaexm_web.woff2') format("truetype")
 }

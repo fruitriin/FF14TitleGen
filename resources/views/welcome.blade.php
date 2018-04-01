@@ -6,18 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="{{ mix('/css/app.css') }}">
-    <title>Laravel</title>
+    <title>FF14タイトルジェネレーター</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
-
 </head>
 <body>
 <div id="app">
     <!-- デフォルトだとこの中ではvue.jsが有効 -->
     <!-- example-component はLaravelに入っているサンプルのコンポーネント -->
-    <example-component></example-component>
+    <title-gen></title-gen>
 </div>
 <!-- body タグの最後に足す-->
 <script src=" {{ mix('js/app.js') }} "></script>
